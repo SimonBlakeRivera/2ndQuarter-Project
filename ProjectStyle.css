@@ -1,0 +1,105 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    text-align: left;
+    background-image: url(https://i.pinimg.com/originals/77/24/01/77240149bb8ef7f37c2e11a873e8edb4.gif?fbclid=IwAR2xzGzlZegQSVzS7vTrDSL_cEb1RwgdHY3EhhxMmBPavcLS7rIXPyO6n58); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    color: white;
+}
+.title {
+    font-size: 75px;
+    margin-top: 100px; 
+    margin-left: 90px; 
+    color: white;
+}
+.sub-title {
+    font-size: 30px; 
+    margin-left: 120px;
+    color: white;     
+}
+.topnav {
+    margin-top: 20px; 
+    transform: translate(-15%, 0px);
+    display: inline-block;
+}
+.topnav input[type="text"] {
+    width: 200px; 
+    margin-left: 0; 
+}
+header h1 input{
+    transform: translate(-48%, 20px);
+    font-size: 85%;
+}
+header {
+    padding-bottom: 10px;
+}
+header a {
+    color: white;
+}
+
+header h1 ul {
+    float: right;
+    transform: translate(-15%, 0px)
+}
+
+header h1 ul li{
+    display: inline-block;
+}
+article section a button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em  ;
+    font-weight: bold;
+    border: black;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+article section{
+    transform: translate(35%, 1px); 
+    transition: .4s;
+}
+
+article section a button:hover{
+    scale: 1.15;
+    transition: 0.3s;
+}
+
+#Instagram{
+    background: url('image_sprite.png') no-repeat -15px -5px;
+    width: 38px;
+    height: 36px;
+    border-radius: 1000vh;
+}
+
+#Instagram:hover{
+    background: url('image_sprite.png') no-repeat -17px -46px;
+    cursor: pointer;
+}
+
+#Facebook{
+    background: url('image_sprite.png') no-repeat -55px -5px;
+    width: 38px;
+    height: 38px;
+    border-radius: 1000vh;
+}
+
+#Facebook:hover{
+    background: url(image_sprite.png) no-repeat -55px -46px;
+    cursor: pointer;
+}
+li:hover {
+    transition: 0.3s;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+}
+
+.videos{
+    display: inline-block;
+}
